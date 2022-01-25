@@ -1,0 +1,51 @@
+.documentation-container{
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.components-container{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.component-section{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.component-example{
+    border: 2px solid var(--secondary-color);
+    max-width: 1100px;
+    margin: 30px 10px 30px 0px;
+    padding: 10px;
+}
+.code-example{
+    width: 95%;
+    max-width: 1000px;
+    height: 300px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.code-example::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.code-example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@media only screen and (max-width: 800px)
+{
+    .components-container{
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .component-section{
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 30px;  
+    }
+}
