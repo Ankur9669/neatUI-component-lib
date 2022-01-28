@@ -125,3 +125,15 @@
         display: none;
     }
 }
+@media only screen and (max-width: 600px)
+{
+    .logo{
+        font-size: 1.8rem;
+    }
+    .logo-text{
+        font-size: 1.8rem;
+    }
+    .nav-items-container{
+        display: none;
+    }
+}
