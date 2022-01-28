@@ -7,19 +7,18 @@
     grid-column-end: 2;
 }
 .components-container{
-    margin-top: 50px;
+    margin-top: 2.5rem;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 .component-section{
-    margin-left: 30px;
-    margin-bottom: 40px;
+    margin: 0rem 2rem 3rem 2rem;
 }
 .component-example{
     border: 2px solid var(--secondary-color);
     max-width: 1100px;
-    margin: 30px 10px 30px 0px;
-    padding: 10px;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+    padding: 0.7rem;
 }
 .code-example{
     width: 95%;
@@ -40,12 +39,12 @@
 @media only screen and (max-width: 800px)
 {
     .components-container{
-        margin-top: 50px;
+        margin-top: 4rem;
         grid-column-start: 1;
         grid-column-end: 3;
     }
     .component-section{
-        margin: 0px 20px 0px 20px;
-        padding-bottom: 30px;  
+        margin: 0rem 1.5rem 0rem 1.5rem;
+        padding-bottom: 2.5rem;  
     }
 }

@@ -4,6 +4,8 @@
 @import "./Typography/typography.css";
 @import "./Avatar/avatar.css";
 @import "./Image/image.css";
+@import "./Badge/badge.css";
+@import "./Buttons/button.css";
 
 *{
     margin: 0;
