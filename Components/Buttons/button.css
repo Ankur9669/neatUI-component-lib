@@ -41,7 +41,7 @@
     border: 2px solid var(--success-button);
 }
 .button-success:hover{
-    background-color: var(--dark-green);
+    background-color: var(--light-green);
 }
 .button-warning{
     background-color: var(--warning-button);
