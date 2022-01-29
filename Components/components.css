@@ -6,6 +6,7 @@
 @import "./Image/image.css";
 @import "./Badge/badge.css";
 @import "./Buttons/button.css";
+@import "./Cards/cards.css";
 
 *{
     margin: 0;
