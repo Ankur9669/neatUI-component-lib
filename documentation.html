@@ -703,6 +703,212 @@
           </iframe>
         </section>
         <!--  Cards Section End  -->
+
+        <!--  Images Section Start  -->
+        <section class="component-section" id="images-section">
+          <h4 class="component-heading">Images</h4>
+          <p class="component-sub-heading">
+            Using our library you can easily make your images responsive. Here
+            all the images will be fitted to it's parent width.
+          </p>
+          <p class="component-sub-heading-bold">Example of Responsive Image</p>
+          <p class="component-sub-heading">
+            For using responsive image you can use class
+            <span class="highlight-text">img-responsive</span> this would fit
+            the image to the width of it's parent container.
+          </p>
+
+          <!--  Responsive Image  -->
+          <div
+            class="component-example flex-row flex-row-center-vertical flex-gap-1"
+          >
+            <div style="width: 100%; height: 400px">
+              <img
+                src="https://picsum.photos/1400/400"
+                alt="responsive-image"
+                class="img-responsive"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!--  Code Example  -->
+          <iframe
+            loading="lazy"
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520Give%2520width%2520and%2520height%2520to%2520the%2520parent%2520and%2520the%2520image%2520would%2520fit%2520accordingly%2520--%253E%250A%253Cdiv%2520style%253D%2522width%253A%2520100%2525%253B%2520height%253A%2520400px%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1400%252F400%2522%250A%2520%2520%2520%2520alt%253D%2522responsive-image%2522%250A%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <!--   -->
+
+          <!--  Round Image  -->
+          <p class="component-sub-heading-bold">Example of Round Image</p>
+          <p class="component-sub-heading">
+            For using round images you have to give equal width and height to
+            parent container and than you can use class
+            <span class="highlight-text">img-round and img-responsive</span> for
+            making the image round.
+          </p>
+          <div
+            class="component-example flex-row flex-row-center-vertical flex-gap-1"
+          >
+            <div style="width: 15rem; height: 15rem">
+              <img
+                src="https://picsum.photos/350/350"
+                alt="responsive-image"
+                class="img-round img-responsive"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <!--  Code Example  -->
+          <iframe
+            loading="lazy"
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520img-responsive%2520for%2520making%2520image%2520fit%2520to%2520parent%2520and%2520img-round%2520for%2520making%2520%250Aimage%2520round%2520--%253E%250A%253Cdiv%2520style%253D%2522width%253A%252015rem%253B%2520height%253A%252015rem%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F350%252F350%2522%250A%2520%2520%2520%2520alt%253D%2522responsive-image%2522%250A%2520%2520%2520%2520class%253D%2522img-round%2520img-responsive%2522%250A%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <!--  Image Section End  -->
+
+        <!--  Input Section Start  -->
+        <section class="component-section">
+          <h4 class="component-heading">Inputs</h4>
+          <p class="component-sub-heading">
+            Inputs are used for taking some important information from the user
+            so that we can use that information for user benefit.
+          </p>
+          <p class="component-sub-heading-bold">Example of Inputs</p>
+          <p class="component-sub-heading">
+            For using inputs you can use the following html, and the label would
+            go up when you type something.
+          </p>
+
+          <!--  Simple Inputs  -->
+          <div
+            class="component-example flex-row flex-row-center-vertical flex-gap-1"
+          >
+            <!--  Text Box  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                value=""
+                onchange="change(this)"
+                required
+              />
+              <label class="input-label">
+                <span>*</span>
+                Name
+              </label>
+            </div>
+            <!--    -->
+
+            <!--  Password  -->
+            <div class="input-box">
+              <input
+                type="password"
+                class="input"
+                value=""
+                onchange="change(this)"
+                required
+              />
+              <label class="input-label">
+                <span>*</span>
+                Password
+              </label>
+            </div>
+          </div>
+          <!--  Code Example  -->
+          <iframe
+            loading="lazy"
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520%2520Text%2520Box%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520value%253D%2522%2522%2520onchange%253D%2522change%28this%29%2522%2520required%2520%252F%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E*%253C%252Fspan%253E%250A%2520%2520%2520%2520Name%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520%2520%2520--%253E%250A%250A%253C%21--%2520%2520Password%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520value%253D%2522%2522%2520onchange%253D%2522change%28this%29%2522%2520required%2520%252F%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E*%253C%252Fspan%253E%250A%2520%2520%2520%2520Password%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <p class="component-sub-heading-bold">Javascript</p>
+          <!--  Code Example  -->
+          <iframe
+            loading="lazy"
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=function%2520change%28input%29%2520%257B%250A%2520%2520input.setAttribute%28%2522value%2522%252C%2520input.value%29%253B%250A%257D"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <p class="component-sub-heading-bold">
+            Example of Inputs with Validation
+          </p>
+          <p class="component-sub-heading">
+            We have 3 types of validation with inputs
+            <span class="highlight-text">error</span>,
+            <span class="highlight-text">warn</span>,
+            <span class="highlight-text">success</span>
+          </p>
+          <div
+            class="component-example flex-row flex-row-center-vertical flex-gap-1"
+          >
+            <!--  Success Box  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input success"
+                value=""
+                onchange="change(this)"
+                required
+              />
+              <label class="input-label">
+                <span>*</span>
+                Success Box
+              </label>
+            </div>
+            <!--    -->
+
+            <!--  Warning Box  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input warning"
+                value=""
+                onchange="change(this)"
+                required
+              />
+              <label class="input-label">
+                <span>*</span>
+                Warn Box
+              </label>
+            </div>
+            <!--    -->
+
+            <!--  Error Box  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input error"
+                value=""
+                onchange="change(this)"
+                required
+              />
+              <label class="input-label">
+                <span>*</span>
+                Error Box
+              </label>
+            </div>
+            <!--  -->
+          </div>
+          <!--  Code Example  -->
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520%2520Success%2520Box%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522input-box%2520success%2522%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520value%253D%2522%2522%2520onchange%253D%2522change%28this%29%2522%2520required%2520%252F%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E*%253C%252Fspan%253E%250A%2520%2520%2520%2520Success%2520Box%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520%2520%2520--%253E%250A%250A%253C%21--%2520%2520Warning%2520Box%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522input-box%2520warning%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520value%253D%2522%2522%2520onchange%253D%2522change%28this%29%2522%2520required%2520%252F%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E*%253C%252Fspan%253E%250A%2520%2520%2520%2520Warn%2520Box%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520%2520%2520--%253E%250A%250A%253C%21--%2520%2520Error%2520Box%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522input-box%2520error%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520value%253D%2522%2522%2520onchange%253D%2522change%28this%29%2522%2520required%2520%252F%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E*%253C%252Fspan%253E%250A%2520%2520%2520%2520Error%2520Box%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520--%253E"
+            class="code-example"
+            loading="lazy"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <!--  Input Section End   -->
       </section>
     </main>
 
