@@ -7,6 +7,9 @@ let images = document.getElementById("images");
 let inputs = document.getElementById("inputs");
 let typography = document.getElementById("typography");
 let lists = document.getElementById("lists");
+let modal = document.getElementById("modal");
+let toast = document.getElementById("toast");
+
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
@@ -17,6 +20,8 @@ let imageSection = document.getElementById("images-section");
 let inputSection = document.getElementById("input-section");
 let typographySection = document.getElementById("typography-section");
 let listsSection = document.getElementById("lists-section");
+let modalSection = document.getElementById("modal-section");
+let toastSection = document.getElementById("toast-section");
 //
 
 let yOffset = -100;
@@ -67,7 +72,16 @@ lists.addEventListener("click", () => {
     listsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
-
+modal.addEventListener("click", () => {
+  let y =
+    modalSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+toast.addEventListener("click", () => {
+  let y =
+    toastSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
 // Function to enable scrolling
 function scrollToView(offsetY) {
   window.scrollTo({ top: offsetY, behavior: "smooth" });
