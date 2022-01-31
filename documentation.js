@@ -3,13 +3,16 @@ let avatar = document.getElementById("avatar");
 let badges = document.getElementById("badges");
 let buttons = document.getElementById("buttons");
 let cards = document.getElementById("cards");
-
+let images = document.getElementById("images");
+let inputs = document.getElementById("inputs");
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
 let badgesSection = document.getElementById("badges-section");
 let buttonsSection = document.getElementById("buttons-section");
 let cardsSection = document.getElementById("cards-section");
+let imageSection = document.getElementById("images-section");
+let inputSection = document.getElementById("input-section");
 //
 
 let yOffset = -100;
@@ -36,6 +39,16 @@ buttons.addEventListener("click", () => {
 cards.addEventListener("click", () => {
   let y =
     cardsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+images.addEventListener("click", () => {
+  let y =
+    imageSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+inputs.addEventListener("click", () => {
+  let y =
+    inputSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
 
