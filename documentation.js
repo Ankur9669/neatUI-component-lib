@@ -5,6 +5,8 @@ let buttons = document.getElementById("buttons");
 let cards = document.getElementById("cards");
 let images = document.getElementById("images");
 let inputs = document.getElementById("inputs");
+let typography = document.getElementById("typography");
+let lists = document.getElementById("lists");
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
@@ -13,6 +15,8 @@ let buttonsSection = document.getElementById("buttons-section");
 let cardsSection = document.getElementById("cards-section");
 let imageSection = document.getElementById("images-section");
 let inputSection = document.getElementById("input-section");
+let typographySection = document.getElementById("typography-section");
+let listsSection = document.getElementById("lists-section");
 //
 
 let yOffset = -100;
@@ -49,6 +53,18 @@ images.addEventListener("click", () => {
 inputs.addEventListener("click", () => {
   let y =
     inputSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+typography.addEventListener("click", () => {
+  let y =
+    typographySection.getBoundingClientRect().top +
+    window.pageYOffset +
+    yOffset;
+  scrollToView(y);
+});
+lists.addEventListener("click", () => {
+  let y =
+    listsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
 
