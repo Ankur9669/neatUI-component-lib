@@ -10,6 +10,7 @@ let lists = document.getElementById("lists");
 let modal = document.getElementById("modal");
 let toast = document.getElementById("toast");
 
+
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
@@ -82,6 +83,9 @@ toast.addEventListener("click", () => {
     toastSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
+
+
+
 // Function to enable scrolling
 function scrollToView(offsetY) {
   window.scrollTo({ top: offsetY, behavior: "smooth" });
