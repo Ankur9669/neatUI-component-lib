@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="nav-items-container">
-        <a class="nav-item" href="./index.html">Home</a>
+        <a class="nav-item" href="../Home/index.html">Home</a>
         <a class="nav-item">Documentation</a>
       </div>
     </nav>
@@ -1465,7 +1465,7 @@
             <button class="button button-primary" id="reset-rating-button">
               Reset Rating
             </button>
-            <span id="rating-star-info">0 stars</span>
+            <span id="rating-star-info" class="rating-star-info">0 stars</span>
           </div>
           <!-- Code Example -->
           <iframe
@@ -1484,6 +1484,113 @@
           </iframe>
         </section>
         <!--  Rating Bar End   -->
+
+        <!--  Navigation Section Start  -->
+        <section class="component-section">
+          <h4 class="component-heading">Navigation</h4>
+          <p class="component-sub-heading">
+            It is used to navigate to different pages in web sites and apps.
+          </p>
+          <p class="component-sub-heading-bold">Example of Navigation</p>
+          <p class="component-sub-heading">
+            The Navbar is basically divided into 3 parts. <br />1. The Logo
+            Section <br />2. The searchbar and login button <br />3. Icons
+            Section<br />
+            On smaller devices the searchbar and login would get hidden.
+          </p>
+          <div class="component-example flex-column flex-gap-1">
+            <!--  Just for the documentation purpose we are using position 
+              relative otherwise navbar would get sticked to the top  -->
+            <nav class="navbar" style="position: relative; z-index: 99">
+              <!--  Logo Section  -->
+              <div>
+                <img
+                  alt="hamburger-icon"
+                  src="./Images/hamburger.svg"
+                  class="hamburger-icon"
+                  id="hamburger-icon"
+                />
+              </div>
+              <div class="logo-container">
+                <div class="logo">
+                  <img
+                    class="logo-image"
+                    alt="logo-image"
+                    src="./Images/neatUI.svg"
+                  />
+                  <span class="logo-text">FiT</span>
+                  BiT
+                </div>
+              </div>
+              <!--    -->
+
+              <!--  Items Section  -->
+              <div class="nav-items-container-end">
+                <!--  SearchBar and login  -->
+                <div class="login-search-bar-container">
+                  <button class="button button-primary">Login</button>
+                  <div class="input-box">
+                    <input
+                      type="text"
+                      class="input"
+                      value=""
+                      onchange="change(this)"
+                      required
+                    />
+                    <label class="input-label">Search</label>
+                  </div>
+                </div>
+
+                <!--  Icons Container  -->
+                <div class="navbar-icons-container">
+                  <div class="badge-container">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <span class="number-badge number-badge-md">24+</span>
+                  </div>
+                  <div class="badge-container">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="number-badge number-badge-md">24+</span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520%2520Just%2520for%2520the%2520documentation%2520purpose%2520we%2520are%2520using%2520position%2520%250A%2520%2520relative%2520otherwise%2520navbar%2520would%2520get%2520sticked%2520to%2520the%2520top%2520%2520--%253E%250A%253Cnav%2520class%253D%2522navbar%2522%2520style%253D%2522position%253A%2520relative%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520alt%253D%2522hamburger-icon%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fimages%252Fhamburger.svg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522hamburger-icon%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522hamburger-icon%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522logo-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522logo-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522logo-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fimages%252Fblob.svg%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522logo-text%2522%253EFiT%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520BiT%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-items-container-end%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522login-search-bar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520value%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onchange%253D%2522change%28this%29%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%253ESearch%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-icons-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522number-badge%2520number-badge-md%2522%253E24%252B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522number-badge%2520number-badge-md%2522%253E24%252B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </section>
+        <!--  Navigation Section End  -->
+
+        <!--  Slider Section Start   -->
+        <section class="component-section">
+          <h4 class="component-heading">Slider</h4>
+          <p class="component-sub-heading">
+            Slider or Range are used for selecting the range. Like range of
+            sound in video apps, range of price in e-commerce apps etc. For
+            using slider just copy our html and replace the icon by your
+            required one.
+          </p>
+          <p class="component-sub-heading-bold">Example of Slider with icon</p>
+
+          <div class="component-example flex-column flex-gap-1">
+            <div class="slider-container">
+              <i class="fa fa-volume-up" aria-hidden="true"></i>
+              <input type="range" min="10" max="100" value="15" />
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522slider-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-volume-up%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cinput%2520type%2520%253D%2520%2522range%2522%2520min%2520%253D%2520%252210%2522%2520max%2520%253D%2520%2522100%2522%2520value%2520%253D%2520%252215%2522%253E%253C%252Finput%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </section>
+        <!--  Slider Section End   -->
       </section>
     </main>
 

@@ -13,6 +13,7 @@
 @import "./Toasts/toast.css";
 @import "./Simplified-Grid/simplified-grid.css";
 @import "./RatingBar/rating-bar.css";
+@import "./Slider/slider.css";
 
 *{
     margin: 0;
