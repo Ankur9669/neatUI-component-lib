@@ -12,6 +12,7 @@ let toast = document.getElementById("toast");
 let grid = document.getElementById("grid");
 let ratingBar = document.getElementById("rating-bar");
 
+
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
@@ -96,6 +97,9 @@ ratingBar.addEventListener("click", () => {
     ratingBarSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
+
+
+
 // Function to enable scrolling
 function scrollToView(offsetY) {
   window.scrollTo({ top: offsetY, behavior: "smooth" });
