@@ -8,7 +8,7 @@
     font-size: 1rem; 
     padding: 1rem;
     border-radius: 0.4rem;
-    z-index: 99;
+    z-index: 50;
 }
 .toast-success{
     background-color: var(--success-alert-background-color);
