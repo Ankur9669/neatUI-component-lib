@@ -64,6 +64,9 @@
         <a class="nav-item-mobile" id="inputs-mobile">Inputs</a>
         <a class="nav-item-mobile" id="typography-mobile">Typography</a>
         <a class="nav-item-mobile" id="lists-mobile">Lists</a>
+        <a class="nav-item-mobile" id="typography-mobile">Modal</a>
+        <a class="nav-item-mobile" id="lists-mobile">Toast</a>
+
       </div>
     </div>
     <!-- Mobile Sidebar End -->
@@ -82,6 +85,8 @@
           <a class="nav-item-mobile" id="inputs">Inputs</a>
           <a class="nav-item-mobile" id="typography">Typography</a>
           <a class="nav-item-mobile" id="lists">Lists</a>
+          <a class="nav-item-mobile" id="modal">Modal</a>
+          <a class="nav-item-mobile" id="toast">Toast</a>
 
         </div>
       </div>
@@ -1114,11 +1119,154 @@
           </iframe>
         </section>
         <!--     -->
+
+
+        <!--  Modal Section Start   -->
+        <section class="component-section" id="modal-section">
+          <h4 class="component-heading">Modal</h4>
+          <p class="component-sub-heading">
+            Modals are used to show some important information to the user and
+            they are closed only when the user selects some option.
+          </p>
+          <p class="component-sub-heading-bold">Example of Modal</p>
+          <div
+            class="component-example flex-row flex-row-center-vertical flex-gap-1"
+          >
+            <button class="button button-primary" id="modal-button">
+              Live Demo
+            </button>
+            <div class="modal-container" id="modal-container">
+              <div class="modal-content">
+                <div class="modal-title">
+                  <h4 class="font-medium-large weight-semi-bold">
+                    Modal Title
+                  </h4>
+                  <i
+                    class="fa fa-times"
+                    aria-hidden="true"
+                    id="modal-close-icon"
+                  ></i>
+                </div>
+                <p class="font-medium weight-normal modal-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rhoncus maximus congue. Donec nec libero eros. Nulla porta ex
+                  in sem viverra tincidunt ac id nisi
+                </p>
+                <div class="modal-btn-container">
+                  <button
+                    class="button button-outline-primary"
+                    id="modal-cancel-button"
+                  >
+                    Cancel
+                  </button>
+                  <button class="button button-primary" id="modal-ok-button">
+                    Ok
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%2520id%253D%2522modal-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522font-medium-large%2520weight-semi-bold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Modal%2520Title%250A%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa%2520fa-times%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522modal-close-icon%2522%250A%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520modal-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Proin%250A%2520%2520%2520%2520%2520%2520rhoncus%2520maximus%2520congue.%2520Donec%2520nec%2520libero%2520eros.%2520Nulla%2520porta%2520ex%250A%2520%2520%2520%2520%2520%2520in%2520sem%2520viverra%2520tincidunt%2520ac%2520id%2520nisi%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button%2520button-outline-primary%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522modal-cancel-button%2522%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Cancel%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%2520id%253D%2522modal-ok-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Ok%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <!--  Modal Section End   -->
+
+        <!--  Toasts Section Start   -->
+        <section class="component-section" id="toast-section">
+          <h4 class="component-heading">Toast</h4>
+          <p class="component-sub-heading">
+            Toasts are used to show pop up messages to the user. We have 3 types
+            of toasts, success toast, warning toast, error toast. For using
+            these toast use classes
+            <span class="highlight-text">toast toast-success</span>. For
+            positioning of the toast we have 3 classes
+            <span class="highlight-text">bottom-center</span> which would
+            position toast in center,
+            <span class="highlight-text">bottom-left</span> which would position
+            toast in left,
+            <span class="highlight-text">bottom-right</span> which would
+            position toast in right.
+          </p>
+          <p class="component-sub-heading-bold">Example of Toasts</p>
+          <div class="component-example flex-column flex-gap-1">
+            <!--  Success Toast   -->
+            <div class="toast toast-success">
+              <span>Success Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <!--  Error Toast   -->
+            <div class="toast toast-error">
+              <span>Error Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <!--  Warning Toast   -->
+            <div class="toast toast-warning">
+              <span>Warning Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+
+            <!--Just for documentation purpose i had used inline styling-->
+            <!--These toasts would be hidden until the user clicks the demo button-->
+            <div
+              class="toast toast-success bottom-center"
+              id="toast-center"
+              style="display: none"
+            >
+              <span>Success Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div
+              class="toast toast-error bottom-left"
+              id="toast-left"
+              style="display: none"
+            >
+              <span>Error Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div
+              class="toast toast-warning bottom-right"
+              id="toast-right"
+              style="display: none"
+            >
+              <span>Warning Toast Example</span>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <!--Hidden Toasts End-->
+          </div>
+
+          <!--Code Example-->
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=922.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520%2520Success%2520Toast%2520%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%253Cspan%253ESuccess%2520Toast%2520Example%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520Error%2520Toast%2520%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%253Cspan%253EError%2520Toast%2520Example%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520%2520Warning%2520Toast%2520%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%253Cspan%253EWarning%2520Toast%2520Example%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="component-example flex-row flex-gap-1">
+            <button class="button button-primary" id="toast-left-button">
+              Left Demo
+            </button>
+            <button class="button button-primary" id="toast-center-button">
+              Center Demo
+            </button>
+            <button class="button button-primary" id="toast-right-button">
+              Right Demo
+            </button>
+          </div>
+        </section>
+        <!--  Toasts Section End   -->
+
       </section>
     </main>
 
     <script src="documentation.js"></script>
     <script src="Components/Navbar/navbar.js"></script>
     <script src="Components/Inputs/inputs.js"></script>
+
+    <script src="Components/Modal/modal.js"></script>
+    <script src="Components/Toasts/toast.js"></script>
   </body>
 </html>
