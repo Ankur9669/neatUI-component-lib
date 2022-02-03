@@ -9,6 +9,8 @@ let typography = document.getElementById("typography");
 let lists = document.getElementById("lists");
 let modal = document.getElementById("modal");
 let toast = document.getElementById("toast");
+let grid = document.getElementById("grid");
+let ratingBar = document.getElementById("rating-bar");
 
 
 //
@@ -23,6 +25,8 @@ let typographySection = document.getElementById("typography-section");
 let listsSection = document.getElementById("lists-section");
 let modalSection = document.getElementById("modal-section");
 let toastSection = document.getElementById("toast-section");
+let gridSection = document.getElementById("grid-section");
+let ratingBarSection = document.getElementById("rating-bar-section");
 //
 
 let yOffset = -100;
@@ -81,6 +85,16 @@ modal.addEventListener("click", () => {
 toast.addEventListener("click", () => {
   let y =
     toastSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+grid.addEventListener("click", () => {
+  let y =
+    gridSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+ratingBar.addEventListener("click", () => {
+  let y =
+    ratingBarSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
 

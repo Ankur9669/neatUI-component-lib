@@ -11,6 +11,9 @@
 @import "./Lists/lists.css";
 @import "./Modal/modal.css";
 @import "./Toasts/toast.css";
+@import "./Simplified-Grid/simplified-grid.css";
+@import "./RatingBar/rating-bar.css";
+
 
 *{
     margin: 0;
