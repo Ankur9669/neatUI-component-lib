@@ -377,6 +377,59 @@
             loading="lazy"
           >
           </iframe>
+          <p class="component-sub-heading-bold">Example of Badge on text</p>
+          <p class="component-text">
+            We have multiple sizes of text-badges for using these you can use
+            <span class="highlight-text"
+              >text-badge-large, text-badge-medium-large, text-badge-medium,
+              text-badge-small, text-badge-medium-very-small</span
+            >
+            classes.
+          </p>
+          <div class="component-example flex-column flex-gap-1">
+            <p class="font-large weight-semi-bold primary-text-color">
+              Example of large text badge
+              <span
+                class="text-badge text-badge-rounded-border text-badge-large"
+                >New</span
+              >
+            </p>
+            <p class="font-medium-large weight-semi-bold primary-text-color">
+              Example of medium large text badge
+              <span
+                class="text-badge text-badge-rounded-border text-badge-medium-large"
+                >New</span
+              >
+            </p>
+            <p class="font-medium weight-semi-bold primary-text-color">
+              Example of medium text badge
+              <span
+                class="text-badge text-badge-rounded-border text-badge-medium"
+                >New</span
+              >
+            </p>
+            <p class="font-small weight-semi-bold primary-text-color">
+              Example of small text badge
+              <span
+                class="text-badge text-badge-rounded-border text-badge-small"
+                >New</span
+              >
+            </p>
+            <p class="font-extra-small weight-semi-bold primary-text-color">
+              Example of very small text badge
+              <span
+                class="text-badge text-badge-rounded-border text-extra-very-small"
+                >New</span
+              >
+            </p>
+          </div>
+          <!--  Code Example   -->
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cp%2520class%253D%2522font-large%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520Example%2520of%2520large%2520text%2520badge%250A%2520%2520%253Cspan%250A%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-large%2522%250A%2520%2520%2520%2520%253ENew%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520Example%2520of%2520medium%2520large%2520text%2520badge%250A%2520%2520%253Cspan%250A%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-medium-large%2522%250A%2520%2520%2520%2520%253ENew%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-medium%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520Example%2520of%2520medium%2520text%2520badge%250A%2520%2520%253Cspan%250A%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-medium%2522%250A%2520%2520%2520%2520%253ENew%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-small%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520Example%2520of%2520small%2520text%2520badge%250A%2520%2520%253Cspan%250A%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-small%2522%250A%2520%2520%2520%2520%253ENew%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-extra-small%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520Example%2520of%2520very%2520small%2520text%2520badge%250A%2520%2520%253Cspan%250A%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-extra-very-small%2522%250A%2520%2520%2520%2520%253ENew%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fp%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
         </section>
         <!--  Badges Section end   -->
 
@@ -533,6 +586,17 @@
                     White and blue printed playsuit with knot detail, has a
                     shirt collar, sleeveless, button closures
                   </p>
+                  <p class="font-medium weight-semi-bold primary-text-color">
+                    &#8377;200
+                    <span
+                      class="font-extra-small weight-semi-bold strike-through secondary-text-color"
+                      >&#8377;300
+                    </span>
+                    <span
+                      class="text-badge text-badge-rounded-border text-badge-small discount-percent-horizontal"
+                      >11 % off</span
+                    >
+                  </p>
                 </div>
                 <div class="btn-container">
                   <button class="button button-primary">
@@ -575,9 +639,13 @@
               <div class="wrapper">
                 <div class="text-container">
                   <h5
-                    class="font-medium-large weight-semi-bold primary-text-color"
+                    class="font-medium-large weight-semi-bold primary-text-color card-vertical-heading"
                   >
                     Atomic habits
+                    <i
+                      class="fa fa-heart card-vertical-like-icon"
+                      aria-hidden="true"
+                    ></i>
                   </h5>
                   <p class="font-small weight-normal primary-text-color">
                     Book for building habits
@@ -588,6 +656,17 @@
                   <p class="font-medium weight-normal primary-text-color">
                     White and blue printed playsuit with knot detail, has a
                     shirt collar, sleeveless, button closures
+                  </p>
+                  <p class="font-medium weight-semi-bold primary-text-color">
+                    &#8377;200
+                    <span
+                      class="font-extra-small weight-semi-bold strike-through secondary-text-color"
+                      >&#8377;300
+                    </span>
+                    <span
+                      class="text-badge text-badge-rounded-border text-badge-small discount-percent-horizontal"
+                      >11 % off</span
+                    >
                   </p>
                 </div>
                 <div class="btn-container">
@@ -616,9 +695,13 @@
               <div class="wrapper">
                 <div class="text-container">
                   <h5
-                    class="font-medium-large weight-semi-bold primary-text-color"
+                    class="font-medium-large weight-semi-bold primary-text-color card-vertical-heading"
                   >
                     Atomic habits
+                    <i
+                      class="fa fa-heart card-vertical-like-icon"
+                      aria-hidden="true"
+                    ></i>
                   </h5>
                   <p class="font-small weight-normal primary-text-color">
                     Book for building habits
@@ -629,6 +712,17 @@
                   <p class="font-medium weight-normal primary-text-color">
                     White and blue printed playsuit with knot detail, has a
                     shirt collar, sleeveless, button closures
+                  </p>
+                  <p class="font-medium weight-semi-bold primary-text-color">
+                    &#8377;200
+                    <span
+                      class="font-extra-small weight-semi-bold strike-through secondary-text-color"
+                      >&#8377;300
+                    </span>
+                    <span
+                      class="text-badge text-badge-rounded-border text-badge-small discount-percent-horizontal"
+                      >11 % off</span
+                    >
                   </p>
                 </div>
                 <div class="btn-container">
@@ -645,15 +739,13 @@
           </div>
           <!-- Code Example -->
           <iframe
-            loading="lazy"
-            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520Vertical%2520Card%2520Without%2520Dismiss%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fimages%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2522%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Atomic%2520habits%250A%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Book%2520for%2520building%2520habits%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-extra-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Sold%2520by%2520bookstore%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520White%2520and%2520blue%2520printed%2520playsuit%2520with%2520knot%2520detail%252C%2520has%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520shirt%2520collar%252C%2520sleeveless%252C%2520button%2520closures%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cart-arrow-down%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520Card%2520Vertical%2520without%2520dismiss%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522.%252FImages%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2520card-vertical-heading%2522%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Atomic%2520habits%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa%2520fa-heart%2520card-vertical-like-icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Book%2520for%2520building%2520habits%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-extra-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Sold%2520by%2520bookstore%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520White%2520and%2520blue%2520printed%2520playsuit%2520with%2520knot%2520detail%252C%2520has%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520shirt%2520collar%252C%2520sleeveless%252C%2520button%2520closures%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2526%25238377%253B200%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522font-extra-small%2520weight-semi-bold%2520strike-through%2520secondary-text-color%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%2526%25238377%253B300%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-small%2520discount-percent-horizontal%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E11%2520%2525%2520off%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cart-arrow-down%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             class="code-example"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
           <iframe
-            loading="lazy"
-            src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%250A%253C%21--%2520Card%2520Vertical%2520with%2520dismiss%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-dismiss%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fimages%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%2520alt%253D%2522icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2522%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Atomic%2520habits%250A%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Book%2520for%2520building%2520habits%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-extra-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Sold%2520by%2520bookstore%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520White%2520and%2520blue%2520printed%2520playsuit%2520with%2520knot%2520detail%252C%2520has%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520shirt%2520collar%252C%2520sleeveless%252C%2520button%2520closures%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cart-arrow-down%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520Card%2520Vertical%2520with%2520dismiss%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-dismiss%2522%253E%250A%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520src%253D%2522.%252FImages%252Favatar2.jpg%2522%250A%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Ci%2520class%253D%2522close-icon%2520fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%253Ch5%250A%2520%2520%2520%2520%2520%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2520card-vertical-heading%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520Atomic%2520habits%250A%2520%2520%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa%2520fa-heart%2520card-vertical-like-icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%250A%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520Book%2520for%2520building%2520habits%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-extra-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520Sold%2520by%2520bookstore%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520White%2520and%2520blue%2520printed%2520playsuit%2520with%2520knot%2520detail%252C%2520has%2520a%250A%2520%2520%2520%2520%2520%2520shirt%2520collar%252C%2520sleeveless%252C%2520button%2520closures%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-semi-bold%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2526%25238377%253B200%250A%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522font-extra-small%2520weight-semi-bold%2520strike-through%2520secondary-text-color%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%2526%25238377%253B300%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522text-badge%2520text-badge-rounded-border%2520text-badge-small%2520discount-percent-horizontal%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E11%2520%2525%2520off%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cart-arrow-down%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             class="code-example"
             sandbox="allow-scripts allow-same-origin"
           >
@@ -665,7 +757,7 @@
             Example of Card With Text Overlay
           </p>
           <div
-            class="component-example flex-row flex-row-center-horizontal flex-gap-1"
+            class="component-example flex-row flex-row-center-horizontal-vertical flex-gap-1"
           >
             <div class="card card-vertical">
               <div class="text-overlay">
@@ -708,11 +800,35 @@
                 </div>
               </div>
             </div>
+            <!--    -->
+
+
+            <!--  Card with text overlay on image  -->
+
+            <div class="card card-only-image">
+              <div class="text-overlay">
+                <h4>New Arrival</h4>
+              </div>
+              <div class="image-container">
+                <img
+                  alt="card-image"
+                  src="https://cdn.shopify.com/s/files/1/0610/2882/7370/files/banner-v1-img2.jpg?v=1637420182"
+                  class="img-responsive"
+                  loading="lazy"
+                />
+              </div>
+            </div>
           </div>
           <!-- Code Example  -->
           <iframe
             loading="lazy"
             src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C224%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%250A%253C%21--%2520Card%2520With%2520text%2520Overlay%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%253Cdiv%2520class%2520%253D%2520%2522text-overlay%2522%253E%250A%2520%2520%253Ch4%253EOut%2520of%2520Stock%253C%252Fh4%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520src%253D%2522..%252Fimages%252Favatar2.jpg%2522%250A%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%253Ch5%250A%2520%2520%2520%2520%2520%2520class%253D%2522font-medium-large%2520weight-semi-bold%2520primary-text-color%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520Atomic%2520habits%250A%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520Book%2520for%2520building%2520habits%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-extra-small%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520Sold%2520by%2520bookstore%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-medium%2520weight-normal%2520primary-text-color%2522%253E%250A%2520%2520%2520%2520%2520%2520White%2520and%2520blue%2520printed%2520playsuit%2520with%2520knot%2520detail%252C%2520has%2520a%250A%2520%2520%2520%2520%2520%2520shirt%2520collar%252C%2520sleeveless%252C%2520button%2520closures%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cart-arrow-down%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520Buy%2520Now%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-outline-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-example"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28253%2C242%2C242%2C0.96%29&t=cobalt&wt=none&l=htmlmixed&width=893.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520%2520Card%2520with%2520text%2520overlay%2520on%2520image%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-only-image%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253E%250A%2520%2520%2520%2520%253Ch4%253ENew%2520Arrival%253C%252Fh4%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.shopify.com%252Fs%252Ffiles%252F1%252F0610%252F2882%252F7370%252Ffiles%252Fbanner-v1-img2.jpg%253Fv%253D1637420182%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             class="code-example"
             sandbox="allow-scripts allow-same-origin"
           >
@@ -1466,6 +1582,7 @@
               Reset Rating
             </button>
             <span id="rating-star-info" class="rating-star-info">0 stars</span>
+            <span id="rating-star-info">0 stars</span>
           </div>
           <!-- Code Example -->
           <iframe
@@ -1484,6 +1601,7 @@
           </iframe>
         </section>
         <!--  Rating Bar End   -->
+
 
         <!--  Navigation Section Start  -->
         <section class="component-section">
@@ -1668,5 +1786,8 @@
     <script src="Components/Modal/modal.js"></script>
     <script src="Components/Toasts/toast.js"></script>
     <script src="Components/RatingBar/rating-bar.js"></script>
+    <script src="Components/Modal/modal.js"></script>
+    <script src="Components/Toasts/toast.js"></script>
+
   </body>
 </html>

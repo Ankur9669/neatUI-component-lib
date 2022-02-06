@@ -36,6 +36,9 @@
 .btn-container button{
     margin: 0.8rem 1rem 0.8rem 0px;
 }
+.discount-percent-horizontal{
+    margin-left: 0.2rem;
+}
 
 /* Card Vertical */
 .card-vertical{
@@ -47,6 +50,10 @@
 }
 .card-vertical .wrapper{
     margin: 1rem;
+}
+.card-vertical .image-container{
+    height: 100%;
+    max-height: 280px;
 }
 .card-dismiss .image-container{
     position: relative;
@@ -61,21 +68,38 @@
     cursor: pointer;
     background-color: transparent;
 }
+.card-vertical-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.card-vertical-heading i{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: gray;
+}
 .text-overlay{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: rgba(224,224,224,0.5);
     position: absolute;
     z-index: 1;
     opacity: 0.9;
+    top: 0px;
+    border-radius: 1rem;
 }
 .text-overlay h4{
     font-size: 2rem;
-    background-color: gray;
     color: black;
+}
+.card-only-image{
+    max-width: 600px;
+    height: fit-content;
+}
+.card-only-image img{
+    border-radius: 1rem;
 }
 /*  */
 @media only screen and(max-width: 500px){
