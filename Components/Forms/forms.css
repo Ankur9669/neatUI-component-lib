@@ -1,11 +1,11 @@
-.authentication-form-container{
+.auth-form-container{
     display: flex;
     justify-content: center;
     align-items: center;
     grid-column: 2 / 3;
     z-index: 2;
 }
-.authentication-form{
+.auth-form{
     background-color: white;
     max-width: 31.25rem;
     width: 100%;
@@ -13,11 +13,11 @@
     padding: 1rem 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.authentication-form-heading{
+.auth-form-heading{
     text-align: center;
     margin: 0rem 1rem 0.3rem 1rem;
 }
-.authentication-form-sub-heading{
+.auth-form-sub-heading{
     margin: 0.3rem 1rem;
     text-align: center;
 }
