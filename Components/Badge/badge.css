@@ -78,3 +78,26 @@
     min-width: 1.1rem;
     height: 1.1rem;
 }
+.text-badge{
+    color: var(--badge-text-color);
+    background-color: var(--badge-background-color);
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+}
+.text-badge-large{
+    font-size: 2rem;
+}
+.text-badge-medium-large{
+    font-size: 1.3rem;
+}
+.text-badge-medium{
+    font-size: 1.1rem;
+}
+.text-badge-small{
+    font-size: 1rem;
+}
+.text-badge-very-small{
+    font-size: 0.8rem;
+}
+.text-badge-rounded-border{
+    border-radius: 0.3rem;
+}

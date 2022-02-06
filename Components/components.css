@@ -16,6 +16,7 @@
 @import "./Slider/slider.css";
 @import "./Forms/forms.css";
 
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -31,6 +32,8 @@
     --secondary-text-color: #000130;
     --primary-alert-background-color:#7FD2E6;
     --primary-alert-text-color: #29438b;
+    --badge-text-color: white;
+    --badge-background-color:#1E2063;
     --secondary-alert-background-color:#eaeaec;
     --secondary-alert-text-color: #696b79;
     --success-alert-background-color:#84f1c9;
@@ -86,6 +89,80 @@ button{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.margin-vertical-xs{
+    margin: 0.3rem 0rem 0.3rem 0rem;
+}
+.margin-vertical-sm{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.margin-vertical-md{
+    margin: 0.7rem 0rem 0.7rem 0rem;
+}
+.margin-vertical-lg{
+    margin: 1rem 0rem 1rem 0rem;
+}
+.margin-vertical-xl{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+.margin-horizontal-xs{
+    margin: 0rem 0.3rem 0rem 0.3rem;
+}
+.margin-horizontal-sm{
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+.margin-horizontal-md{
+    margin: 0rem 0.7rem 0rem 0.7rem;
+}
+.margin-horizontal-lg{
+    margin: 0rem 1rem 0rem 1rem;
+}
+.margin-horizontal-xl{
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.padding-vertical-xs{
+    padding: 0.3rem 0rem 0.3rem 0rem;
+}
+.padding-vertical-sm{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.padding-vertical-md{
+    padding: 0.7rem 0rem 0.7rem 0rem;
+}
+.padding-vertical-lg{
+    padding: 1rem 0rem 1rem 0rem;
+}
+.padding-vertical-xl{
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+.padding-horizontal-xs{
+    padding: 0rem 0.3rem 0rem 0.3rem;
+}
+.padding-horizontal-sm{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.padding-horizontal-md{
+    padding: 0rem 0.7rem 0rem 0.7rem;
+}
+.padding-horizontal-lg{
+    padding: 0rem 1rem 0rem 1rem;
+}
+.padding-horizontal-xl{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.spacer-3{
+    width: 100%;
+    height: 3rem;
+}
+.spacer-2{
+    width: 100%;
+    height: 2rem;
+}
+.spacer-1{
+    width: 100%;
+    height: 1rem;
 }
 @media only screen and (max-width: 600px){
     *{
