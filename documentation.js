@@ -96,6 +96,7 @@ ratingBar.addEventListener("click", () => {
     ratingBarSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
+
 // Function to enable scrolling
 function scrollToView(offsetY) {
   window.scrollTo({ top: offsetY, behavior: "smooth" });
