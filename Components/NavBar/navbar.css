@@ -39,7 +39,9 @@
 .nav-items-container{
     display: flex;
     align-items: center;
-    min-width: 300px;
+    flex-wrap: wrap;
+    max-width: 18.7rem;
+    width: 100%;
     justify-content: space-evenly;
 }
 .nav-items-container-end{
@@ -78,7 +80,7 @@
     position: fixed;
     top: 80px;
     bottom: 0;
-    width: 300px;
+    width: 18.75rem;
     background-color: var(--primary-color);
     overflow-y: auto;
     z-index: 2;
