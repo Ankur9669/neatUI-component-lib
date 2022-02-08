@@ -13,6 +13,7 @@
 @import "./Toasts/toast.css";
 @import "./Simplified-Grid/simplified-grid.css";
 @import "./RatingBar/rating-bar.css";
+@import "./Slider/slider.css";
 
 
 *{
@@ -88,6 +89,7 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .margin-vertical-xs{
     margin: 0.3rem 0rem 0.3rem 0rem;
 }
@@ -161,6 +163,7 @@ button{
     width: 100%;
     height: 1rem;
 }
+
 @media only screen and (max-width: 600px){
     *{
         font-size: 80%;
