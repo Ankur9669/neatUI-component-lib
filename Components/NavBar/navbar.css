@@ -62,6 +62,7 @@
 }
 .navbar-icons-container i{
     cursor: pointer;
+    font-size: 2rem;
 }
 .login-search-bar-container .input-box{
     max-width: 15rem;
