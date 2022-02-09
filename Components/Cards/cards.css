@@ -86,7 +86,6 @@
     background-color: rgba(224,224,224,0.5);
     position: absolute;
     z-index: 1;
-    opacity: 0.9;
     top: 0px;
     border-radius: 1rem;
 }
