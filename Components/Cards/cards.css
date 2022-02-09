@@ -96,7 +96,6 @@
 .card-only-image{
     max-width: 600px;
     height: fit-content;
-    aspect-ratio: 1;
 }
 .card-only-image .image-container{
     width: 100%;
