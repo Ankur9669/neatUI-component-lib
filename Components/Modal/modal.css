@@ -13,9 +13,9 @@
     z-index: 100;
 }
 .modal-content{
-    width: 500px;
+    width: 31.25rem;
     background-color: var(--background-color);
-    min-height: 250px;
+    min-height: 15.6rem;
     border-radius: 15px;
     margin: 0rem 1rem 0rem 1rem;
 }
@@ -30,7 +30,7 @@
     margin-left: 10px;
 }
 .modal-title i{
-    font-size: 30px;
+    font-size: 1.8rem;
     cursor: pointer;
     margin-right: 10px;
 }

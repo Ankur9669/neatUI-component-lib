@@ -39,6 +39,7 @@
 .nav-items-container{
     display: flex;
     align-items: center;
+    min-width: 300px;
     flex-wrap: wrap;
     max-width: 18.7rem;
     width: 100%;
