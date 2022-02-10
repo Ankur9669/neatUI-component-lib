@@ -15,6 +15,7 @@ let navigation = document.getElementById("navigation");
 let slider = document.getElementById("slider");
 let forms = document.getElementById("forms");
 
+
 //
 let alertsSection = document.getElementById("alerts-section");
 let avatarSection = document.getElementById("avatar-section");
@@ -102,6 +103,7 @@ ratingBar.addEventListener("click", () => {
     ratingBarSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
+
 navigation.addEventListener("click", () => {
   let y =
     navigationSection.getBoundingClientRect().top +
@@ -119,6 +121,9 @@ forms.addEventListener("click", () => {
     formsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
+
+
+
 // Function to enable scrolling
 function scrollToView(offsetY) {
   window.scrollTo({ top: offsetY, behavior: "smooth" });
