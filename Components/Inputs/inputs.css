@@ -41,6 +41,9 @@
     top: 13px;
     transition: 0.25s;
 }
+.simple-input{
+    padding-left: 1rem;
+}
 .input-box span{
     color: var(--dark-red);
 }
