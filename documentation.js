@@ -11,6 +11,9 @@ let modal = document.getElementById("modal");
 let toast = document.getElementById("toast");
 let grid = document.getElementById("grid");
 let ratingBar = document.getElementById("rating-bar");
+let navigation = document.getElementById("navigation");
+let slider = document.getElementById("slider");
+let forms = document.getElementById("forms");
 
 //
 let alertsSection = document.getElementById("alerts-section");
@@ -26,6 +29,9 @@ let modalSection = document.getElementById("modal-section");
 let toastSection = document.getElementById("toast-section");
 let gridSection = document.getElementById("grid-section");
 let ratingBarSection = document.getElementById("rating-bar-section");
+let navigationSection = document.getElementById("navigation-section");
+let sliderSection = document.getElementById("slider-section");
+let formsSection = document.getElementById("forms-section");
 //
 
 let yOffset = -100;
@@ -94,6 +100,23 @@ grid.addEventListener("click", () => {
 ratingBar.addEventListener("click", () => {
   let y =
     ratingBarSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+navigation.addEventListener("click", () => {
+  let y =
+    navigationSection.getBoundingClientRect().top +
+    window.pageYOffset +
+    yOffset;
+  scrollToView(y);
+});
+slider.addEventListener("click", () => {
+  let y =
+    sliderSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  scrollToView(y);
+});
+forms.addEventListener("click", () => {
+  let y =
+    formsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
   scrollToView(y);
 });
 // Function to enable scrolling
