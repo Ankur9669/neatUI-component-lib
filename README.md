@@ -45,19 +45,21 @@ For linking in CSS use
 ## Components
 
 - [Alerts](#Alerts)
-- Badges
-- Avatar
-- Button
-- Card
-- Image
-- Input
-- Lists
-- Navigation
-- Modal
-- Rating
-- Toast
-- Grid
-- Typography
+- [Badges](#Badges)
+- [Avatar](#Avatar)
+- [Button](#Buttons)
+- [Card](#Cards)
+- [Image](#Images)
+- [Input](#Inputs)
+- [Lists](#Lists)
+- [Navigation](#Navigation)
+- [Modal](#Modal)
+- [RatingBar](#RatingBar)
+- [Toast](#Toast)
+- [Grid](#Grids)
+- [Typography](#Typography)
+- [Slider](#Slider)
+- [Forms](#Forms)
 
 ---
 
@@ -243,6 +245,7 @@ Slider or Range are used for selecting the range. Like range of sound in video a
 # Forms
 
 Forms are used to take the information from the user.
+
 ![Form image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/form.png)
 
 ---
