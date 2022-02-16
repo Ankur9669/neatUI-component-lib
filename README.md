@@ -4,7 +4,7 @@ neatUI is a library that would enable you to create your UI faster.
 
 ## Gify
 
-![neatUI GIF]("./Images/neatUI.gif")
+![neatUI GIF](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/neatUI.gif)
 
 ## Features
 
