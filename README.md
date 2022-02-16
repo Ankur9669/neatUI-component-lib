@@ -173,3 +173,59 @@ We have gathered multiple font sizes and font weights which would help you a lot
 - Text with bold weight
 
 ---
+
+# Lists
+
+Lists are used in various places such as navigation bar, article page etc.
+
+You can have 2 types of lists
+
+- Unordered Lists
+- Ordered Lists
+
+---
+
+# Modal
+
+Modals are used to show some important information to the user and they are closed only when the user selects some option.
+
+---
+
+# Toast
+
+Toasts are used to show pop up messages to the user.
+
+You can have 3 types of toasts
+
+- Success Toast
+- Error Toast
+- Warning Toast
+
+---
+
+# Grids
+
+If you want to divide the page into parts grid comes very handy.
+
+You can have 4 types of toasts
+
+- 50-50 Grid
+- 70-30 Grid
+- 30-70 Grid
+- 3 items in a Grid
+
+---
+
+# RatingBar
+
+It is used to take the user feedback on the product. You can use our ratingbar without needing to write any js for it.
+
+![RatingBar image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/rating.png)
+
+---
+
+# Navigation
+
+It is used to navigate to different pages in web sites and apps.
+
+---
