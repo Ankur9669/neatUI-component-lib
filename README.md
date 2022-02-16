@@ -44,7 +44,7 @@ For linking in CSS use
 
 ## Components
 
-- Alerts
+- <a name = "alerts"></a>Alerts
 - Badges
 - Avatar
 - Button
@@ -60,3 +60,5 @@ For linking in CSS use
 - Typography
 
 ---
+
+# [#alerts]Alerts
