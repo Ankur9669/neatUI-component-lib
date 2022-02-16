@@ -18,4 +18,9 @@ For using the components you just have to link the **CDN** that is provided on t
 
 To start using the components you just need to link the following code to the html file or the css file and you would be able to use the library right away.
 
-`<link rel="stylesheet" href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css" />`
+```js
+<link
+  rel="stylesheet"
+  href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
+/>
+```
