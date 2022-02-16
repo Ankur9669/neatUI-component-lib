@@ -95,7 +95,7 @@
 }
 .card-only-image{
     max-width: 600px;
-    height: fit-content;
+    height: fit-content;    
 }
 .card-only-image .image-container{
     width: 100%;
