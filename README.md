@@ -44,7 +44,7 @@ For linking in CSS use
 
 ## Components
 
-- <a name = "alerts">Alerts</a>
+- [Alerts](#alerts)
 - Badges
 - Avatar
 - Button
