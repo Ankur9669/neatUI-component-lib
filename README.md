@@ -134,3 +134,42 @@ You can have 2 types of images
 - Round Image
 
 ---
+
+# Images
+
+Using our library you can easily make your images responsive. Here all the images will be fitted to it's parent width.
+
+You can have 2 types of images
+
+- Image which fits to the parent container
+- Round Image
+
+---
+
+# Inputs
+
+Inputs are used for taking some important information from the user so that we can use that information for user benefit.
+
+You can have 3 types of inputs
+
+- Floating Inputs
+- Simple Inputs
+- Inputs with Validation
+
+---
+
+# Typography
+
+We have gathered multiple font sizes and font weights which would help you a lot while writing your css.
+
+- Very large text
+- Large text
+- Medium large text
+- Medium text
+- Small text
+- Very small text
+- Small text
+- Text with bold weight
+- Text with bold weight
+
+---
