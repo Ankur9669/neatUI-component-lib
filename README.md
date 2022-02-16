@@ -44,7 +44,7 @@ For linking in CSS use
 
 ## Components
 
-- [Alerts](#alerts)
+- [Alerts](#Alerts)
 - Badges
 - Avatar
 - Button
@@ -61,4 +61,4 @@ For linking in CSS use
 
 ---
 
-# (#alerts)Alerts
+# Alerts
