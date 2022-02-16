@@ -61,4 +61,4 @@ For linking in CSS use
 
 ---
 
-# [#alerts]Alerts
+# (#alerts)Alerts
