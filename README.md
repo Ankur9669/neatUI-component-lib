@@ -189,6 +189,8 @@ You can have 2 types of lists
 
 Modals are used to show some important information to the user and they are closed only when the user selects some option.
 
+![Modal image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/modal.png)
+
 ---
 
 # Toast
@@ -227,5 +229,20 @@ It is used to take the user feedback on the product. You can use our ratingbar w
 # Navigation
 
 It is used to navigate to different pages in web sites and apps.
+
+![Navigation image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/navigation.png)
+
+---
+
+# Slider
+
+Slider or Range are used for selecting the range. Like range of sound in video apps, range of price in e-commerce apps etc. For using slider just copy our html and replace the icon by your required one.
+
+---
+
+# Forms
+
+Forms are used to take the information from the user.
+![Form image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/form.png)
 
 ---
