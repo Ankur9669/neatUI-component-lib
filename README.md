@@ -97,3 +97,40 @@ We have 3 types of badges
 - Badges on text
 
 ---
+
+# Buttons
+
+Buttons are also called as call to action. We have range of buttons and their states. You may use a tag or button element, you need to add respective classes, and you are good to go.
+
+We have 5 types of buttons
+
+- Primary Button
+- Secondary Button
+- Success Button
+- Warning Button
+- Danger Button
+
+---
+
+# Cards
+
+Cards are used to show the data which is related. They are very userfull for attracting the user attention. They usually contain the information related to single object.
+
+We have 3 types of cards
+
+- Horizontal Card - Text+Image
+- Vertical Card - Text+Image
+- Cards with text overlay
+
+---
+
+# Images
+
+Using our library you can easily make your images responsive. Here all the images will be fitted to it's parent width.
+
+You can have 2 types of images
+
+- Image which fits to the parent container
+- Round Image
+
+---
