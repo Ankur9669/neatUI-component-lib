@@ -62,3 +62,38 @@ For linking in CSS use
 ---
 
 # Alerts
+
+Alerts are used to attract user's attention for important information without interrupting the user's flow.
+
+We have 5 types of alerts
+
+- Primary Alert
+- Secondary Alert
+- Success Alert
+- Warning Alert
+- Danger Alert
+
+---
+
+# Avatar
+
+Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.
+
+We have 2 types of avatar
+
+- Avatar with images
+- Avatar with text
+
+---
+
+# Badges
+
+Badges are being used to display a notification count or status information
+
+We have 3 types of badges
+
+- Badges on images
+- Badges on icons
+- Badges on text
+
+---
