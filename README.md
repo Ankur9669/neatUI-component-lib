@@ -20,7 +20,7 @@ To start using the components you just need to link the following code to the ht
 
 For linking in HTML use
 
-```js
+```html
 <link
   rel="stylesheet"
   href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
@@ -29,10 +29,25 @@ For linking in HTML use
 
 For linking in CSS use
 
-```js
-@import "https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
+```css
+@import "https://suspicious-sammet-33f1b3.netlify.app/Components/components.css";
 ```
 
 ## Components
 
 - Alerts
+- Badges
+- Avatar
+- Button
+- Card
+- Image
+- Input
+- Lists
+- Navigation
+- Modal
+- Rating
+- Toast
+- Grid
+- Typography
+
+---
