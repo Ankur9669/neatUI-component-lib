@@ -1,6 +1,11 @@
+body{
+    display: grid;
+    grid-template-rows: 80px auto;
+}
 .documentation-container{
     display: grid;
     grid-template-columns: 300px auto;
+    grid-row: 2 / 3;
 }
 .sidebar{
     grid-column-start: 1;
